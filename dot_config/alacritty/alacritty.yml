@@ -1,0 +1,51 @@
+font:
+  normal:
+    family: terminal-font
+    style: Regular
+
+  bold:
+    family: terminal-font
+    style: Bold
+
+  italic:
+    family: terminal-font
+    style: Italic
+
+  bold_italic:
+    family: terminal-font
+    style: Bold Italic
+
+  # size: 8
+  # offset:
+  #   x: 2
+  #   y: 1
+
+# Modified Dracula Theme for Alacritty
+env:
+  TERM: screen-256color
+
+colors:
+  # Default colors
+  primary:
+    background: '0x1F1D2C'
+    foreground: '0xc0c5ce'
+  # Normal colors
+  normal:
+    black:   '0x44475a'
+    red:     '0xff5555'
+    green:   '0x40c47a'  # Muted green
+    yellow:  '0xdada6c'  # Muted yellow
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbfbfbf'
+  # Bright colors
+  bright:
+    black:   '0x4d4d4d'
+    red:     '0xff6e67'
+    green:   '0x4dcd7f'  # Muted bright green
+    yellow:  '0xe2e27c'  # Muted bright yellow
+    blue:    '0xcaa9fa'
+    magenta: '0xff92d0'
+    cyan:    '0x9aedfe'
+    white:   '0xe6e6e6'
