@@ -122,3 +122,8 @@ function sudo
     doas $argv
 end
 
+function ls
+    /usr/bin/eza $argv
+end
+
+#load_nvm > /dev/stderr
