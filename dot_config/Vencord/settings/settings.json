@@ -104,10 +104,11 @@
             "enabled": true
         },
         "EmoteCloner": {
-            "enabled": false
+            "enabled": true
         },
         "Experiments": {
-            "enabled": false
+            "enabled": true,
+            "enableIsStaff": false
         },
         "F8Break": {
             "enabled": false
@@ -142,7 +143,8 @@
             "enabled": true
         },
         "GameActivityToggle": {
-            "enabled": false
+            "enabled": true,
+            "oldIcon": false
         },
         "GifPaste": {
             "enabled": false
@@ -267,7 +269,7 @@
             "messages": true
         },
         "PronounDB": {
-            "enabled": true,
+            "enabled": false,
             "showInMessages": true,
             "showSelf": true,
             "showInProfile": true,
@@ -354,7 +356,8 @@
         },
         "TypingIndicator": {
             "enabled": true,
-            "includeMutedChannels": false
+            "includeMutedChannels": false,
+            "includeCurrentChannel": true
         },
         "TypingTweaks": {
             "enabled": false
@@ -526,6 +529,18 @@
         },
         "XSOverlay": {
             "enabled": false
+        },
+        "ChatInputButtonAPI": {
+            "enabled": true
+        },
+        "BetterGifPicker": {
+            "enabled": false
+        },
+        "FixCodeblockGap": {
+            "enabled": false
+        },
+        "FixYoutubeEmbeds": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -535,10 +550,10 @@
         "logLimit": 50
     },
     "cloud": {
-        "authenticated": false,
+        "authenticated": true,
         "url": "https://api.vencord.dev/",
-        "settingsSync": false,
-        "settingsSyncVersion": 1703386884398
+        "settingsSync": true,
+        "settingsSyncVersion": 1707334568367
     },
     "enabledThemes": []
 }
