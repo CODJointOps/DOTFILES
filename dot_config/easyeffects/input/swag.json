@@ -1,5 +1,14 @@
 {
     "input": {
+        "autogain#0": {
+            "bypass": false,
+            "input-gain": 0.1,
+            "maximum-history": 25,
+            "output-gain": 0.1,
+            "reference": "Geometric Mean (MS)",
+            "silence-threshold": -25.0,
+            "target": -16.499999999999908
+        },
         "blocklist": [],
         "compressor#0": {
             "attack": 20.0,
@@ -9,14 +18,14 @@
             "dry": -100.0,
             "hpf-frequency": 10.0,
             "hpf-mode": "off",
-            "input-gain": -0.1,
+            "input-gain": 0.0,
             "knee": -6.0,
             "lpf-frequency": 20000.0,
             "lpf-mode": "off",
-            "makeup": 4.5,
+            "makeup": 6.399999999999993,
             "mode": "Downward",
-            "output-gain": 4.9,
-            "ratio": 4.0,
+            "output-gain": 0.5,
+            "ratio": 2.7600000000000264,
             "release": 100.0,
             "release-threshold": -100.0,
             "sidechain": {
@@ -29,7 +38,7 @@
                 "type": "Feed-forward"
             },
             "stereo-split": false,
-            "threshold": -10.900000000000004,
+            "threshold": -12.0,
             "wet": 0.0
         },
         "equalizer#0": {
@@ -392,7 +401,7 @@
             },
             "mode": "IIR",
             "num-bands": 32,
-            "output-gain": 0.0,
+            "output-gain": -5.9,
             "pitch-left": 0.0,
             "pitch-right": 0.0,
             "right": {
@@ -754,7 +763,7 @@
         "gate#0": {
             "attack": 20.0,
             "bypass": false,
-            "curve-threshold": -17.49999999999998,
+            "curve-threshold": -24.0,
             "curve-zone": -6.0,
             "dry": -100.0,
             "hpf-frequency": 10.0,
@@ -765,9 +774,9 @@
             "input-gain": 0.0,
             "lpf-frequency": 20000.0,
             "lpf-mode": "off",
-            "makeup": 0.0,
-            "output-gain": 2.6,
-            "reduction": -24.0,
+            "makeup": 2.5000000000000004,
+            "output-gain": 0.1,
+            "reduction": -8.499999999999915,
             "release": 100.0,
             "sidechain": {
                 "input": "Internal",
@@ -781,24 +790,15 @@
             "stereo-split": false,
             "wet": 0.0
         },
-        "pitch#0": {
-            "anti-alias": false,
-            "bypass": true,
-            "input-gain": 0.0,
-            "output-gain": 0.0,
-            "overlap-length": 8,
-            "quick-seek": false,
-            "rate-difference": 0.0,
-            "seek-window": 15,
-            "semitones": 0.0,
-            "sequence-length": 40,
-            "tempo-difference": 0.0
+        "level_meter#0": {
+            "bypass": true
         },
         "plugins_order": [
-            "equalizer#0",
-            "compressor#0",
             "gate#0",
-            "pitch#0"
+            "compressor#0",
+            "equalizer#0",
+            "autogain#0",
+            "level_meter#0"
         ]
     }
 }
