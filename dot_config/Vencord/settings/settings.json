@@ -100,9 +100,6 @@
         "CustomRPC": {
             "enabled": false
         },
-        "DisableDMCallIdle": {
-            "enabled": true
-        },
         "EmoteCloner": {
             "enabled": true
         },
@@ -218,9 +215,6 @@
             "triggerWhenUnfocused": true,
             "ignoreBots": true,
             "ignoreBlocked": true
-        },
-        "MuteNewGuild": {
-            "enabled": false
         },
         "NoBlockedMessages": {
             "enabled": false
@@ -541,6 +535,12 @@
         },
         "FixYoutubeEmbeds": {
             "enabled": true
+        },
+        "DisableCallIdle": {
+            "enabled": true
+        },
+        "NewGuildSettings": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -550,10 +550,10 @@
         "logLimit": 50
     },
     "cloud": {
-        "authenticated": true,
+        "authenticated": false,
         "url": "https://api.vencord.dev/",
-        "settingsSync": true,
-        "settingsSyncVersion": 1707334568367
+        "settingsSync": false,
+        "settingsSyncVersion": 1709151926317
     },
     "enabledThemes": []
 }
