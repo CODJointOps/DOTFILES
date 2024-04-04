@@ -1,0 +1,59 @@
+# Font configuration
+[font.normal]
+family = "terminal-font"
+style = "Regular"
+
+[font.bold]
+family = "terminal-font"
+style = "Bold"
+
+[font.italic]
+family = "terminal-font"
+style = "Italic"
+
+[font.bold_italic]
+family = "terminal-font"
+style = "Bold Italic"
+
+[font]
+size = 11.10 # You might want to start with the size you had before the switch.
+#offset = { x = 0, y = 0 } # Start with no offset and adjust as necessary.
+
+# The following settings can also affect the appearance of your fonts
+#use_thin_strokes = false # Set to `true` if you want thinner strokes.
+
+
+#glyph_offset = { x = 0, y = 0 } # Fine-tune the position of the glyphs.
+
+# Environment variables
+[env]
+TERM = "screen-256color"
+
+# Color scheme configuration
+[colors]
+
+  [colors.primary]
+  background = "#1F1D2C"
+  foreground = "#c0c5ce"
+
+  [colors.normal]
+  black = "#44475a"
+  red = "#ff5555"
+  green = "#40c47a"
+  yellow = "#dada6c"
+  blue = "#bd93f9"
+  magenta = "#ff79c6"
+  cyan = "#8be9fd"
+  white = "#bfbfbf"
+
+  [colors.bright]
+  black = "#4d4d4d"
+  red = "#ff6e67"
+  green = "#4dcd7f"
+  yellow = "#e2e27c"
+  blue = "#caa9fa"
+  magenta = "#ff92d0"
+  cyan = "#9aedfe"
+  white = "#e6e6e6"
+
+
